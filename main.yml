@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Apache HTTP server
-  hosts: your_target_server
+  hosts: localhost
   become: true
   gather_facts: false
 
